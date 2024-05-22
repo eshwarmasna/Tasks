@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+<style>
+    body{
+        background-color:rgb(128, 153, 155);
+       
+/* background-image: url(../Mutimedia/Images/a); */
+    }
+</style>
+  </head>
+  <body>
+    <fieldset>
+        
+    <legend><h2>Workshop Registration</h2>  </legend>
+    <p>please fill out the form below to register for the Workshop</p>
+    <form method="get">
+      
+      <label for="fname">First Name:</label>
+      <input
+        type="text"
+        id="fname"
+        placeholder="Enter First Name"
+        required
+        name="fname"
+
+      />
+      <label for="lname">Last Name :</label>
+      <input
+        type="text"
+        id="lname"
+        placeholder="Enter Last Name"
+        name="lname"
+        pattern="[A-Za-z]{3}"
+      /><br /><br>
+      <label for="email">Email : </label>
+      <input type="email" id="email" placeholder="Enter Email" required />
+      <label for="email">Mobile No: </label>
+      <input type="number" id="nos" placeholder="Enter Mobile Number" name="mob" /><br /><br>
+      <label for="cname">Company Name:</label>
+      <input type="text" id="cname" size="54" placeholder="Company" name="Company"/><br /><br>
+      <label for="Address">Address:</label>
+      <input type="text" id="Address" size="62" placeholder="15-241" name="Address"/><br /><br>
+      <label for="add">Street Address :</label>
+      <input type="text" id="add"  name="Street"/>
+      <label for="city">City:</label>
+      <input type="text" id="city" size="24" name="City"/><br /><br>
+      <label for="state">State:</label>
+      <input type="text" id="state" name="State"/>
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="Country"size="30" />
+      <h4>How many will attend ?</h4>
+      <p>
+        One Ticket :25K. Full Access to Workshop Sessions,materials ,and
+        food/drink possibilties.<br>Make sure you enter the correct amount !
+      </p>
+      <label for="quan">Quantity</label>
+      <input type="text" name="quan" size="15">
+      <label for="total">Total</label>
+      <input type="text" name="total" size="36">
+      <h4>How did you hear about the workshop ?</h4>
+      <input type="checkbox" >Website
+      <input type="checkbox" >Friend/Colleague
+      <input type="checkbox" >Online Search
+      <h4>Skills:</h4>
+
+      <input type="radio" id="html" name="Fre" value="HTML">
+      <label for="html">HTML</label>
+      <input type="radio" id="css" name="Fre" value="CSS">
+      <label for="css">CSS</label>
+      <input type="radio" id="java" name="Fre" value="JAVA">
+      <label for="css">JAVA </label>
+      <h4>Date:</h4>
+      <p>07/05/2024</p>
+      
+      <label for="file">Upload Resume: </label>
+      <input type="file"><br>
+   
+      <img src="./Multimedia/Sf.png" width="150" height="150"><br>
+      <input type="tel">Feel Free to Contact Us<br> 
+      <input type="color">
+      <input type="submit">
+      <input type="reset">
+      <select  >
+        <option value="car">Tata</option>
+        <option value="car">Audi</option>
+        <option value="car">Benz</option>
+        <option value="car">Mahindra</option>
+      </select><br>
+      
+    </fieldset>
+    </form>
+  </body>
+</html>

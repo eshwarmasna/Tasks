@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Form</title>
+    <style>
+      fieldset {
+        background-color: blueviolet;
+        text-align: center;
+        border: 5px solid;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        margin-left: 200px;
+        margin-right: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <form method="post">
+        <h1>Register Form</h1>
+        <h4>Signup now and get full access to our app.</h4>
+        <label for="fname">First Name:</label>
+        <input
+          type="text"
+          name="FirstName"
+          id="fname"
+          placeholder="FirstName"
+        />
+        <label for="lname">Last Name:</label>
+        <input
+          type="text"
+          name="LastName"
+          id="lname"
+          placeholder="LastName"
+          autofocus
+        /><br /><br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          size="43"
+          placeholder="Email"
+          class="mail"
+        /><br /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+          class="pass"
+          size="40"
+       
+        /><br /><br />
+        <label for="conpassword">Confirm Password:</label>
+        <input
+          type="password"
+          id="conpassword"
+          name="ConPass"
+          placeholder="Confirm Password"
+          class="cpass"
+          size="33"
+        /><br /><br />
+        <input
+          type="submit"
+          formaction="./Login.html"
+          value="Sign Up"
+          style="padding: 4px; background-color: #fff"
+        />
+        <h4>
+          Already have an account
+          <a href="./Login.html" style="color: greenyellow">Sign in</a>
+        </h4>
+      </form>
+    </fieldset>
+  </body>
+</html>
